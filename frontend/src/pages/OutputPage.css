@@ -1,0 +1,33 @@
+.output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #eef2f7;
+}
+
+.output-card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: left;
+}
+
+.output-card button {
+  background: #007bff;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.output-card button:hover {
+  background: #0056b3;
+}
